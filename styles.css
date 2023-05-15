@@ -1,0 +1,217 @@
+body {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  
+}
+
+
+
+
+
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+ header p {
+  margin: 10px;
+  display: inline;
+  color: rgb(85, 82, 82);
+  cursor: pointer;
+}
+
+ header p:hover {
+  color: blueviolet;
+ 
+}
+.usd {
+  border: 1px;
+}
+.info {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid gray;
+  padding: 20px;
+  background-color:white;
+  width: 100%;
+  
+  
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  
+
+}
+.navigation i {
+  margin: 5px;
+}
+.banner {
+  font-size: 30px;
+  background-color:#dbfffb;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.banner button {
+    font-size: 16px;
+    display: inline-block;
+    border: 1px solid black;
+    line-height: 1;
+    padding: 19px 50px 21px;
+    cursor: pointer;
+    background-color: #dbfffb;
+}
+.banner button:hover {
+  background-color: rgb(201, 76, 201) ;
+  color: white;
+  transition: 1s;
+}
+.pictures {
+  display: flex;
+  justify-content:center;
+
+}
+.pictures img {
+  margin: 80px 30px ;
+
+}
+.title {
+  text-align: center;
+  margin-top: 60px;
+  
+}
+.categories {
+  display: flex;
+  justify-content: center;
+}
+.categories h4 {
+  margin: 10px;
+  font-size: 20px;
+}
+.grey {
+  color: gray;
+}
+.grey:hover {
+  color:black;
+}
+.photos {
+  width: 33,33333%;
+}
+.price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.price  i:hover {
+  color: purple;
+  cursor: pointer;
+}
+.price p:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+.shop1 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.shop2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+u:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+.banner2 {
+  background-image: url(images/bg-1.webp);
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  font-size: 40px;
+  text-align: center;
+  
+}
+.banner2 h3 {
+  display: inline-block;
+  margin: 9px;
+  
+}
+.banner2 button {
+  font-size: 16px;
+  display: inline-block;
+  border: 1px solid black;
+  line-height: 1;
+  padding: 19px 50px 21px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.banner2 button:hover {
+background-color: rgb(201, 76, 201) ;
+color: white;
+transition: 1s;
+
+}
+.help {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.help div {
+  text-align: center;
+}
+.line {
+  
+  height: 35px;
+  border: 1px solid gray;
+}
+.blog {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 70px;
+
+}
+.blog img {
+  position: relative;
+}
+.blog p {
+  background-color: purple;
+  width: 55px;
+  color: white;
+  transform: translate(27%,-380px);
+  padding: 2.5px;
+}
+.blogtext {
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 0px;
+  transform: translate(50%,-90%);
+  width: 180px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(239, 230, 230);
+}
+footer p:hover {
+  color: blueviolet;
+  cursor: pointer;
+}
+footer input {
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  background-color: rgb(239, 230, 230) ;
+  margin-bottom: 7px;
+  margin-top: 7px;
+}
